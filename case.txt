@@ -1,0 +1,8 @@
+In the script, the scan_target() function takes a target server as a parameter and performs the following actions:
+
+Port Scanning: It uses the -p1-65535 -sS arguments to perform a TCP SYN scan on all ports.
+OS Detection: It uses the -O argument to perform OS detection on the target.
+Vulnerability Testing: It uses the -sV --script vulners arguments to perform vulnerability testing using the Vulners script.
+You can modify the script according to your needs, such as specifying different scanning options or adding additional functionality.
+
+Remember to use this script responsibly and only scan servers that you have proper authorization to test.
